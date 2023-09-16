@@ -17,6 +17,12 @@ class _CreateGameState extends State<CreateGame> {
   final SocketMethods _socketMethods = SocketMethods();
 
   @override
+  void initState() {
+    super.initState();
+    _socketMethods.createRoomSuccessListener(context);
+  }
+
+  @override
   void dispose() {
     super.dispose();
     _userController.dispose();

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:project_tictactoe/resources/socket_client.dart';
 
 class SocketMethods {
@@ -12,5 +13,18 @@ class SocketMethods {
         },
       );
     }
+  }
+
+  void createRoomSuccessListener(BuildContext context) {
+    _socketClient.on(
+      'createRoom',
+      (room) {
+        print(room);
+        Navigator.pushNamed(
+          context,
+          '/game',
+        );
+      },
+    );
   }
 }
