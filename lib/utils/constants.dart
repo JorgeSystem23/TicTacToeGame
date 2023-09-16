@@ -7,3 +7,9 @@ const InputDecoration kTextInputDecoration = InputDecoration(
   hintText: '',
   // ),
 );
+const bgcolor = Color.fromRGBO(
+  16,
+  13,
+  34,
+  1,
+);

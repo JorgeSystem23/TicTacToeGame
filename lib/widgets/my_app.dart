@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_tictactoe/routes/routes.dart';
-import 'package:project_tictactoe/utils/design.dart';
+import 'package:project_tictactoe/utils/constants.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
