@@ -4,7 +4,7 @@
             "outputFile": "com.example.project_tictactoe.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/io/Documents/game_tictactoe/project/project_tictactoe/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/io/Documents/game_tictactoe/project/TicTacToeGame/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
