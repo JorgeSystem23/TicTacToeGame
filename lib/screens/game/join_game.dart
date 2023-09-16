@@ -26,11 +26,11 @@ class _JoinGameState extends State<JoinGame> {
     final size = MediaQuery.of(context).size;
 
     return Scaffold(
-      body: Responsive(
-        child: Container(
-          margin: const EdgeInsets.symmetric(
-            horizontal: 20,
-          ),
+      body: Container(
+        margin: const EdgeInsets.symmetric(
+          horizontal: 20,
+        ),
+        child: Responsive(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,

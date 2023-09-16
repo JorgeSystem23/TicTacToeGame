@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:project_tictactoe/screens/game/create_game.dart';
+import 'package:project_tictactoe/screens/game/create_room_game.dart';
 import 'package:project_tictactoe/screens/game/game_screen.dart';
 import 'package:project_tictactoe/screens/game/join_game.dart';
 import 'package:project_tictactoe/screens/login.dart';
@@ -25,7 +25,7 @@ class Routes {
         page = Container();
         break;
       case '/create':
-        page = const CreateGame();
+        page = const CreateRoomScreen();
         break;
       case '/join':
         page = const JoinGame();
