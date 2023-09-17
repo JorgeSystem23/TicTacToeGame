@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "9a1a92567da5ba281853eeb8aa848932366c22d4c906cd6a3183548b7eafb970"
+build_start_time: [1694878663, 513898849]
+build_end_time: [1694878683, 250381946]
+inputs:
+  "/Users/io/Documents/game_tictactoe/project/TicTacToeGame/macos/Flutter/GeneratedPluginRegistrant.swift": [1694878582, 46931028]
+  "/Users/io/Documents/game_tictactoe/project/TicTacToeGame/macos/Runner/AppDelegate.swift": [1694786464, 866707801]
+  "/Users/io/Documents/game_tictactoe/project/TicTacToeGame/macos/Runner/MainFlutterWindow.swift": [1694786464, 872033119]

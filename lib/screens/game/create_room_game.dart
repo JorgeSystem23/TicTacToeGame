@@ -5,15 +5,15 @@ import 'package:project_tictactoe/widgets/custom_button.dart';
 import 'package:project_tictactoe/widgets/custom_text.dart';
 import 'package:project_tictactoe/widgets/custom_text_field.dart';
 
-class CreateGame extends StatefulWidget {
-  const CreateGame({super.key});
+class CreateRoomScreen extends StatefulWidget {
+  const CreateRoomScreen({Key? key}) : super(key: key);
 
   @override
-  State<CreateGame> createState() => _CreateGameState();
+  State<CreateRoomScreen> createState() => _CreateRoomScreenState();
 }
 
-class _CreateGameState extends State<CreateGame> {
-  final TextEditingController _userController = TextEditingController();
+class _CreateRoomScreenState extends State<CreateRoomScreen> {
+  final TextEditingController _nameController = TextEditingController();
   final SocketMethods _socketMethods = SocketMethods();
 
   @override
@@ -25,7 +25,7 @@ class _CreateGameState extends State<CreateGame> {
   @override
   void dispose() {
     super.dispose();
-    _userController.dispose();
+    _nameController.dispose();
   }
 
   @override
@@ -43,32 +43,29 @@ class _CreateGameState extends State<CreateGame> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const CustomText(
-                text: 'Crear Sala',
                 shadows: [
                   Shadow(
-                    blurRadius: 60,
+                    blurRadius: 40,
                     color: Colors.blue,
-                  )
+                  ),
                 ],
-                fontSize: 115,
+                text: 'Create Room',
+                fontSize: 70,
               ),
-              SizedBox(
-                height: size.height * 0.08,
-              ),
+              SizedBox(height: size.height * 0.08),
               CustomTextField(
-                controller: _userController,
+                controller: _nameController,
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
-                  hintText: 'Ingresa tu usuario',
+                hintText: 'Enter your nickname',
                 ),
               ),
-              SizedBox(
-                height: size.height * 0.04,
-              ),
+              SizedBox(height: size.height * 0.045),
               CustomButton(
-                onTap: () => _socketMethods.createRoom(_userController.text),
-                title: 'Crear',
-              ),
+                  onTap: () => _socketMethods.createRoom(
+                        _nameController.text,
+                      ),
+                  title: 'Create'),
             ],
           ),
         ),
