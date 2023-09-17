@@ -98,12 +98,30 @@
       "languageVersion": "2.12"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "nested",
+      "rootUri": "file:///Users/io/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+>>>>>>> develop
       "name": "path",
       "rootUri": "file:///Users/io/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
+<<<<<<< HEAD
+=======
+      "name": "provider",
+      "rootUri": "file:///Users/io/.pub-cache/hosted/pub.dev/provider-6.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+>>>>>>> develop
       "name": "sky_engine",
       "rootUri": "file:///Users/io/Documents/game_tictactoe/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -176,7 +194,11 @@
       "languageVersion": "3.1"
     }
   ],
+<<<<<<< HEAD
   "generated": "2023-09-17T02:50:45.951718Z",
+=======
+  "generated": "2023-09-16T16:27:03.623436Z",
+>>>>>>> develop
   "generator": "pub",
   "generatorVersion": "3.1.2"
 }

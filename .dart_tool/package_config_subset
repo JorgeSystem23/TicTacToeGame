@@ -54,10 +54,24 @@ meta
 2.12
 file:///Users/io/.pub-cache/hosted/pub.dev/meta-1.9.1/
 file:///Users/io/.pub-cache/hosted/pub.dev/meta-1.9.1/lib/
+<<<<<<< HEAD
+=======
+nested
+2.12
+file:///Users/io/.pub-cache/hosted/pub.dev/nested-1.0.0/
+file:///Users/io/.pub-cache/hosted/pub.dev/nested-1.0.0/lib/
+>>>>>>> develop
 path
 2.12
 file:///Users/io/.pub-cache/hosted/pub.dev/path-1.8.3/
 file:///Users/io/.pub-cache/hosted/pub.dev/path-1.8.3/lib/
+<<<<<<< HEAD
+=======
+provider
+2.12
+file:///Users/io/.pub-cache/hosted/pub.dev/provider-6.0.5/
+file:///Users/io/.pub-cache/hosted/pub.dev/provider-6.0.5/lib/
+>>>>>>> develop
 socket_io_client
 2.12
 file:///Users/io/.pub-cache/hosted/pub.dev/socket_io_client-2.0.3+1/

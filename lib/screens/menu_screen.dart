@@ -37,7 +37,7 @@ class MenuScreen extends StatelessWidget {
 void createRoom(BuildContext context) {
   Navigator.pushNamed(
     context,
-    '/game',
+    '/create',
   );
 }
 
