@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_tictactoe/responsive/responsive.dart';
+import 'package:project_tictactoe/utils/constants.dart';
 import 'package:project_tictactoe/widgets/custom_button.dart';
 import 'package:project_tictactoe/widgets/custom_text_field.dart';
 
@@ -38,7 +39,7 @@ class _LoginState extends State<Login> {
         appBar: AppBar(
           title: const Text('Login'),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: bgcolor,
         body: Responsive(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
